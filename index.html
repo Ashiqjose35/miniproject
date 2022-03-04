@@ -10,12 +10,12 @@
 		<h1 class="display-4">Select Language</h1>
 	</div>
 
-	<form action="{{url_for('choose_singer')}}" method="POST">
-		<label><input type="radio" name="language" value="punjabi" checked="true"><div class="box">punjabi</div></label>
-		<label><input type="radio" name="language" value="english"><div class="box">english</div></label>
+	<form action="/emotion_detect" method="POST">
+		<label><input type="radio" name="language" value="malayalam" checked="true"><div class="box">Malayalam</div></label>
+		<label><input type="radio" name="language" value="english"><div class="box">English</div></label>
 		<br>
-		<label><input type="radio" name="language" value="hindi"><div class="box">hindi</div></label>
-		<label><input type="radio" name="language" value="western"><div class="box">western</div></label>
+		<label><input type="radio" name="language" value="hindi"><div class="box">Hindi</div></label>
+		<label><input type="radio" name="language" value="tamil"><div class="box">Tamil</div></label>
 
 		<br>
 		<input type="submit" name="btn" value="next" class="btn btn-outline-success btn-lg">
