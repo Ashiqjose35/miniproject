@@ -1,10 +1,12 @@
 body{
 	text-align: center;
+	background-image: url("pic.jpg");
+	background-size: cover;
 }
 
 h1{
-	font-family: sans-serif;
-	color: #289672;
+	font-family: "Lucida Handwriting ", cursive;
+	color: #ffffff;
 }
 .title{
 	margin-top: 20px;
@@ -13,21 +15,21 @@ input[type="radio"]{
 	display: none;
 }
 .box{
-	background-color: #ddffbc;
-	height: 330px;
-	width: 450px;
+	background-color: #91978b;
+	height: 250px;
+	width: 250px;
 	padding: 30px;
 	text-align:center;
 	font-size: 40px;
-	font-family: sans-serif;
+	font-family: "Lucida Handwriting ", cursive;
 	line-height: 220px;
 	margin: 10px 10px;
-	border: 2px solid #52734d;
+	border: 5px solid #294125;
 	border-radius: 10%;
 
 }
 .box:hover{
-	background-color: #91c788;
+	background-color: #54794d;
 	transition-duration: 1s;
 }
 
@@ -37,8 +39,10 @@ input[type=radio]:checked + .box{
 	transition-duration: 1s;
 }
 .btn{
+	
 	width: 300px;
 	height: 60px;
+	
 	}
 
 img{
@@ -47,4 +51,3 @@ img{
 	border : 2px solid green;
 	border-radius: 30px;
 }
-
