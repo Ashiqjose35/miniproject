@@ -1,4 +1,4 @@
-# emotion-based-music-ai
+# Song Recommendation System using Facial detection
 
 READ FACIAL EMOTIONS AND RECOMEND SONG
 
